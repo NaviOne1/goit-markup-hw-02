@@ -41,7 +41,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #f4f4fd;
+  color: var(--secondary-text-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -53,7 +53,7 @@ body {
   letter-spacing: var(--primary-letter-spacing);
   color: var(--secondary-text-color);
 }
-.discription-text {
+.description-text {
   color: var(--primery-text-color);
 }
 
@@ -97,6 +97,7 @@ font-style: normal;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: var(--primary-letter-spacing);
 }
 /* ==============HEADER================ */
 /* ==============HERO================== */
@@ -141,7 +142,7 @@ font-style: normal;
   text-align: center;
   text-transform: capitalize;
 }
-.list-emploees {
+.team-item {
   background-color: #FFFFFF;
 }
 
