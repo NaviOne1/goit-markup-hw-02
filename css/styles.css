@@ -45,6 +45,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.footer-logo {
+  color: #f4f4fd;
+}
 .list-title {
   font-style: normal;
   font-weight: 500;
